@@ -71,9 +71,9 @@ body{
     font-size: 200%;
     color: white;
     float: center;
-    width: 100%;
+    width: 30;
     height: 407px;
-    padding: 0px;
+    padding: 10px;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -86,35 +86,46 @@ body{
     padding: 20px;
     width: 20%;
     margin-left: 20px;
-    font-family:'Brush Script MT', cursive;
+    list-style-type:none;
     font-size: 1.3em;
+    border-radius:30px;
     }
     .unordered {
-        background: #2D2D31;
-        color: white;
+        background: #6f2233;
+        color:white;
         padding: 20px;
         width: 20%;
         margin-left: 20px;
-        font-family:'Brush Script MT', cursive;
+        list-style-type:none;
         font-size: 1.3em;
+        border-radius:30px;
         }
 .ordered li ul{
-        background: #f3f0ec;
+        background: #6F2233;
         padding: 5px;
         margin: 0px 0px 5px 20px;
         background: #2D2D31;
+        list-style-type:none;
         padding: 5px;
         margin-left: 0px;
         }
 .nested-in-ul li{
-            background: #2D2D31;
+            background: #6F2233;
             padding: 5px;
             margin-left: 0px;
+            list-style-type:square;
             color: white;
 }
 .wrapper{
     text-align: center;
-    vertical-align: text-top;
+    background-color:#C3073F;
+    border-radius: 50px;
+    border: 2px solid #C3073F;
+    padding:10px;
+    margin:30px;
+    border-color:#C3073F;
+    border-style:double;
+   
 }
 .parent {
     margin: 1rem;
@@ -133,7 +144,7 @@ body{
     background: url(https://cdn.discordapp.com/attachments/890141163422617611/980790692639043624/btd.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-posistion: bottom;
+    background-position: bottom;
 }
 .flier {
     pointer-events: none;
